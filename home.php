@@ -67,7 +67,7 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
 
  <div class="header">
 
-    <h1 id="hungry">Welcome to Food Haven</h1>
+    <h1 id="hungry">Welcome to Foodies Haven</h1>
     <h1 id="discover">You can reserve our services or order directly</h1>
     <p id="best">We aim to satisfy all your catering needs at your doorstep</p>
  </div>
