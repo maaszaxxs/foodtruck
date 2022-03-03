@@ -98,7 +98,7 @@ body {
     /* Rectangle 2 */
     position: absolute;
     width: 1516px;
-    height: 250px;
+    height: 200px;
     left: 0px;
     top: 650px;
     background: #2D2D82;
@@ -109,8 +109,30 @@ body {
     /*justify-content: space-between;*/
 
 }
+#column_footer {
+    display: flex;
+    justify-content: space-between;
+    /*float: left;*/
+}
+#column {
+    text-align: center;
+}
+.copyright {
+    position: relative;
+    display: flex;
+    background-color: #4D4D4D;
+    font-size: small;
+    color: #FFFFFF;
+}
+#copyright {
+
+}
 #email {
     /*text-decoration: none;*/
+    color: white;
+}
+#column a {
+    text-decoration: none;
     color: white;
 }
 .wrapper{
@@ -151,9 +173,7 @@ body {
     /* background: url(images/burger.png); */
     /* border-radius: 135px; */
 }
-#copyright {
-    font-size: small;
-}
+
 nav {
     display: flex;
     align-items: center;
@@ -307,8 +327,4 @@ button:hover {
     .Regbtn {
         width: 100%;
     }
-}
-#column_footer {
-    display: flex;
-    justify-content: space-between;
 }

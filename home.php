@@ -84,16 +84,36 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
     </div>
 </div>
 <div class="footer">
-    <h3 style="padding-top: 10px">Connect With Us</h3>
-    <p>
-        +254 727 444 777<br>
-        <a target="_blank" id="email" href="mailto:shop@gfoodhaven.co.ke">shop@foodhaven.co.ke</a><br>
-        Nairobi, Kenya
-    </p>
-    <a target="_blank" class="social-icon" href="https://facebook.com"><i class="fab fa-facebook"></i></a>
-    <a target="_blank" class="social-icon" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-    <a target="_blank" class="social-icon" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-    <p id="copyright">© Copyright 2022 Food Haven | Privacy Policy | Terms and Conditions</p>
+    <div id="column_footer">
+        <div id="column">
+            <h3 style="padding-top: 10px">Useful Links</h3>
+            <p>
+                <a href="index.php">Home</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Contact Us</a>
+            </p>
+        </div>
+        <div id="column">
+            <h3 style="padding-top: 10px">About Us</h3>
+            <p>
+                We are a premier dining experience with various popup locations around Nairobi.<br> We provide event catering from office parties, family functions, art functions to outdoor concerts.<br>Our friendly staff always provide the best service at affordable rates.
+            </p>
+        </div>
+        <div id="column">
+            <h3 style="padding-top: 10px">Connect With Us</h3>
+            <p>
+                +254 727 444 777<br>
+                <a target="_blank" id="email" href="mailto:shop@gfoodhaven.co.ke">shop@foodhaven.co.ke</a><br>
+                Nairobi, Kenya
+            </p>
+            <a target="_blank" class="social-icon" href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" class="social-icon" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" class="social-icon" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright 2022 Food Haven | Privacy Policy | Terms and Conditions</p>
+    </div>
 </div>
 </body>
 </html>
