@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 3px;
+}
+body {
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*position: relative;*/
+    background: linear-gradient(100.62deg, #FDE376 8.78%, #FFFFFF 123%);
+    max-height: 100%;
+    max-width: 100%;
+}
+/*.background{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    padding-top: 49px;*/
+/*}*/
+.navbar {
+    /* Rectangle 1 */
+    /*position: absolute;*/
+    height: 120px;
+    max-width:1400px;
+    background: #2D2D82;
+    border-radius: 20px;
+}
+#best{
+    /* The best bite in town on wheels. */
+    /*position: absolute;*/
+    /*width: 292px;*/
+    /*height: 34px;*/
+    /*left: 60px;*/
+    /*top: 230px;*/
+
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    /* or 89% */
+
+
+    color: #4D4D4D;
+}
+.button1 {
+    /* Rectangle 3 */
+    align-items: center;
+
+}
+#GetStarted {
+    /* Get Started */
+
+    position: absolute;
+    width: 326px;
+    height: 97px;
+    left: 600px;
+    top: 400px;
+
+    background: #FDE376;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    font-weight: bold;
+    /*font-size: 30px;*/
+    /*line-height: 54px;*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+
+    color: #2D2D82;
+}
+#OrderNow {
+    position: relative;
+    width: 326px;
+    height: 91px;
+
+    left:590px;
+    top:160px;
+
+    background: #FBCC05;
+    border-radius: 50px;
+}
+#OrderNow a {
+    text-decoration: none;
+    color:white;
+}
+#GetStarted a {
+    text-decoration: none;
+    color: #2D2D82;
+}
+#foodtruck {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    left: 50px;
+    top: -65px;
+}
+.footer {
+    /* Rectangle 2 */
+    position: absolute;
+    width: 1516px;
+    height: 250px;
+    left: 0px;
+    top: 650px;
+    background: #2D2D82;
+
+    color: white;
+    /*text-align: center;*/
+    /*display:flex;*/
+    /*justify-content: space-between;*/
+
+}
+#email {
+    /*text-decoration: none;*/
+    color: white;
+}
+.wrapper{
+    width: 1400px;
+    margin:0 auto;
+}
+.ellipse{
+    position: absolute;
+    top: 250px;
+    max-width: 1516px;
+}
+.ellipse1 {
+    /* Ellipse 1 */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: -10px;
+    /*top: 260px;*/
+    background: #FCDF64;
+    border-radius: 350px;
+}
+.ellipse2 {
+    /* Ellipse 2 */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 1012px;
+    /*top: 260x;*/
+    background: #FDE376;
+    border-radius: 350px;
+}
+#burger {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    /* top: 471px; */
+    /* background: url(images/burger.png); */
+    /* border-radius: 135px; */
+}
+#copyright {
+    font-size: small;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+nav ul{
+    display: flex;
+}
+.nav-link li {
+    list-style: none;
+    margin-right: 110px;
+}
+/*nav .icon:nth-of-type(0) {*/
+/*    align-items: first;*/
+/*}*/
+.nav-link li a {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+}
+nav .icon {
+    color: #FDE376;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    align-content: center;
+}
+.header {
+    /*display: flex;*/
+    align-items: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+#hungry {
+    color: #2D2D82;
+    margin-bottom: 10px;
+    /*font-size: 600px;*/
+}
+#discover {
+    color: #4D4D4D;
+    margin-bottom: 20px;
+    /*font-size: 560px;*/
+}
+#username {
+    color: #4D4D4D;
+}
+.header:nth-of-type(1) {
+    top: 10px;
+}
+.social-icon {
+    padding-right: 1rem;
+    color: #FFFFFF;
+    size: auto;
+}
+i {
+    color: #FFFFFF;
+}
+.nav-btn-container {
+    width: 122px;
+    height: 37px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    align-items: center;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color: #4D4D4D;
+}
+.background {
+    /*background-image: url("images/cutlery.jpg");*/
+    background-repeat: no-repeat;
+}
+form {
+    border: 3px solid #f1f1f1;
+    max-width: 600px;
+    margin: 10px auto;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2D2D82;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    font-style: Poppins;
+    font-weight: bold;
+    font-size: ;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.Regbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #0077c8;
+}
+
+
+.error_message {
+    color: red;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.success_message {
+    color: green;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    padding: 16px;
+    color: #4D4D4D;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .Regbtn {
+        width: 100%;
+    }
+}
+#column_footer {
+    display: flex;
+    justify-content: space-between;
+}
