@@ -328,3 +328,25 @@ button:hover {
         width: 100%;
     }
 }
+.header_contact {
+    /*position: relative;*/
+    /*padding-left-left: 5px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#column_header {
+    display: block;
+    text-align: center;
+}
+.social {
+    padding-right: 1rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+#contact_image {
+    border-radius: 20px;
+}
+#contact h2 {
+    text-transform: capitalize;
+}

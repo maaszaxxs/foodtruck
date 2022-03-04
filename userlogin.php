@@ -37,7 +37,7 @@ if(isset($_SESSION['user_email'])){
                         <a href="#">About</a>
                     </li>
                     <li>
-                        <a href="#">Contact Us</a>
+                        <a href="contact.php">Contact Us</a>
                     </li>
                     <!--                 <li>-->
                     <!--                    <a href="#">Services</a>-->
@@ -80,7 +80,7 @@ if(isset($_SESSION['user_email'])){
             <p>
                 <a href="index.php">Home</a><br>
                 <a href="#">About</a><br>
-                <a href="#">Contact Us</a>
+                <a href="contact.php">Contact Us</a>
             </p>
         </div>
         <div id="column">
