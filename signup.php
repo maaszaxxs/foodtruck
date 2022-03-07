@@ -18,6 +18,14 @@ if(isset($_SESSION['user_email'])){
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <style>
+        a, a:visited{
+            color: #0000EE;
+        }
+        a:hover{
+            color: #EE0000;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,7 +43,7 @@ if(isset($_SESSION['user_email'])){
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="about.php">About</a>
                         </li>
                         <li>
                             <a href="contact.php">Contact Us</a>
@@ -50,6 +58,8 @@ if(isset($_SESSION['user_email'])){
             </div>
         </nav>
     </div>
+
+<!--Form-->
 <form action="" method="post">
     <h2>Create an account</h2>
 
@@ -58,7 +68,7 @@ if(isset($_SESSION['user_email'])){
         <input type="text" placeholder="Enter username" id="username" name="username" required>
 
         <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter email" id="email" name="user_email" required>
+        <input type="email" placeholder="Enter email" id="email1" name="user_email" required>
 
         <label for="password"><b>Password</b></label>
         <input type="password" placeholder="Enter password" id="password" name="user_password" required>
@@ -84,7 +94,7 @@ if(isset($_SESSION['user_email'])){
             <h3 style="padding-top: 10px">Useful Links</h3>
             <p>
                 <a href="index.php">Home</a><br>
-                <a href="#">About</a><br>
+                <a href="about">About</a><br>
                 <a href="contact.php">Contact Us</a>
             </p>
         </div>

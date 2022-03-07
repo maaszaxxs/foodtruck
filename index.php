@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <style>
+        a, a:visited{
+            color: #0000EE;
+        }
+        a:hover{
+            color: #EE0000;
+        }
+    </style>
 </head>
 <body>
 

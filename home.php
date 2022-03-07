@@ -19,6 +19,8 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <title>Home</title>
     <style>
         a, a:visited{
@@ -46,11 +48,11 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
                         <a href="home.php">Home</a>
                     </li>
                     <li>
-                        <a href="#">Booking</a>
+                        <a href="book.php">Booking</a>
                     </li>
-                    <li>
-                        <a href="#">Orders</a>
-                    </li>
+<!--                    <li>-->
+<!--                        <a href="#">Orders</a>-->
+<!--                    </li>-->
 <!--                    <li>-->
 <!--                        <a href="#">Services</a>-->
 <!--                    </li>-->
@@ -68,12 +70,12 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
  <div class="header">
 
     <h1 id="hungry">Welcome to Foodies Haven</h1>
-    <h1 id="discover">You can reserve our services or order directly</h1>
+    <h1 id="discover">You can reserve our services</h1>
     <p id="best">We aim to satisfy all your catering needs at your doorstep</p>
  </div>
   <div class="button1">
       <button id="GetStarted" type="submit" name="Get Started"><a href="book.php"><h1>Reserve Services</h1></a></button>
-      <button id="OrderNow" type="submit" name="Order Now"><a href="order.php"><h1>Order Now</h1></a></button>
+<!--      <button id="OrderNow" type="submit" name="Order Now"><a href="order.php"><h1>Order Now</h1></a></button>-->
     </div>
 <div class="ellipse">
     <div class="ellipse1">
@@ -83,14 +85,15 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
         <img id="foodtruck" src="images/foodtruck.png" alt="food truck image">
     </div>
 </div>
+<!--footer-->
 <div class="footer">
     <div id="column_footer">
         <div id="column">
             <h3 style="padding-top: 10px">Useful Links</h3>
             <p>
                 <a href="index.php">Home</a><br>
-                <a href="#">About</a><br>
-                <a href="#">Contact Us</a>
+                <a href="book.php">Booking</a><br>
+                <a href="contact.php">Contact Us</a>
             </p>
         </div>
         <div id="column">
