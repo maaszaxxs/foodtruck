@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<!--Creating Nav Bar-->
+<!--Nav Bar-->
     <div class="navbar">
 <!--        <nav class="nav-menu">-->
             <div class="wrapper">
@@ -26,7 +26,7 @@
                     <a href="index.php">Home</a>
                  </li>
                  <li>
-                    <a href="#">About</a>
+                    <a href="about.php">About</a>
                  </li>
                  <li>
                     <a href="contact.php">Contact Us</a>
@@ -60,13 +60,15 @@
             <img id="foodtruck" src="images/foodtruck.png" alt="food truck image">
          </div>
     </div>
+
+<!--Footer-->
     <div class="footer">
        <div id="column_footer">
             <div id="column">
               <h3 style="padding-top: 10px">Useful Links</h3>
               <p>
                 <a href="index.php">Home</a><br>
-                <a href="#">About</a><br>
+                <a href="about.php">About</a><br>
                 <a href="contact.php">Contact Us</a>
               </p>
             </div>
