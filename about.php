@@ -8,6 +8,8 @@
     <title>About</title>
     <link rel="stylesheet" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--Nav Bar-->
@@ -42,13 +44,34 @@
 
 <!--header-->
       <!--Carousel-->
+      <div class="header_contact">
+          <div id="column_header">
+              <img src="images/sandwitch.jpg" width="500" alt="food haven cover image">
+          </div>
+          <div id="column_header">
+              <p>We are a premier dining experience with various popup locations around Nairobi. We provide catering for office parties, family functions, art functions to outdoor concerts. Our friendly staff always provide the best service at affordable rates. <br><br>We have embraced a farm to table concept through working with the best locally sourced ingredients.</p>
+              <br><p>Our main services include: <br>
+                 <ul>
+                  <li>
+                      Outside Catering
+                  </li>
+                  <li>
+                      Event Catering
+                  </li>
+                  <li>
+                      Meal Plans
+                  </li>
+              </ul>
+              </p>
+          </div>
+      </div>
       <!--summary-->
       <!--services-->
 
 <!--Testimonials-->
 
 <!--Footer-->
-<div class="footer">
+<div class="footer1">
     <div id="column_footer">
         <div id="column">
             <h3 style="padding-top: 10px">Useful Links</h3>
@@ -76,7 +99,7 @@
             <a target="_blank" class="social-icon" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
-    <div class="copyright">
+    <div class="copyright1">
         <p>© Copyright 2022 Food Haven | Privacy Policy | Terms and Conditions</p>
     </div>
 </div>

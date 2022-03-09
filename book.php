@@ -2,8 +2,19 @@
 session_start();
 require 'db_connection.php';
 require 'insert_booking.php';
-?>
 
+// CHECK USER IF LOGGED IN
+if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
+
+    $user_email = $_SESSION['user_email'];
+    $get_user_data = mysqli_query($db_connection, "SELECT * FROM `users` WHERE user_email = '$user_email'");
+    $userData =  mysqli_fetch_assoc($get_user_data);
+
+}else{
+    header('Location: logout.php');
+    exit;
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,6 +26,7 @@ require 'insert_booking.php';
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
     <style>
         a, a:visited{
             color: #0000EE;
@@ -81,6 +93,7 @@ require 'insert_booking.php';
 
         <button type="submit"><h3>Book</h3></button>
     </div>
+  </form>
     <?php
     if(isset($success_message)){
         echo '<div class="success_message">'.$success_message.'</div>';
@@ -90,12 +103,12 @@ require 'insert_booking.php';
     }
     ?>
 <!--footer-->
-<div class="footer">
+<div class="footer1">
     <div id="column_footer">
         <div id="column">
             <h3 style="padding-top: 10px">Useful Links</h3>
             <p>
-                <a href="index.php">Home</a><br>
+                <a href="home.php">Home</a><br>
                 <a href="book.php">Booking</a><br>
 <!--                <a href="contact.php">Contact Us</a>-->
             </p>
@@ -118,7 +131,7 @@ require 'insert_booking.php';
             <a target="_blank" class="social-icon" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
         </div>
     </div>
-    <div class="copyright">
+    <div class="copyright1">
         <p>© Copyright 2022 Food Haven | Privacy Policy | Terms and Conditions</p>
     </div>
 </div>

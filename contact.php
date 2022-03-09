@@ -1,3 +1,9 @@
+<?php
+session_start();
+require 'db_connection.php';
+require 'insert_contact.php';
+//require 'send_contact_email.php';
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,6 +15,7 @@
     <link rel="stylesheet" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
     <style>
         a, a:visited{
             color: #0000EE;
@@ -36,7 +43,7 @@
                     <a href="about.php">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="contact.php">Contact Us</a>
                 </li>
                 <!--                 <li>-->
                 <!--                    <a href="#">Services</a>-->
@@ -50,21 +57,31 @@
 </div>
 <div class="header_contact">
     <div id="column_header">
-        <div class="container">
-            <label for="name"><b>Name</b></label>
-            <input type="text" placeholder="Enter your name" id="username" name="name" required>
+        <form action="" method="post">
+            <div class="container">
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter your name" id="username" name="name" required>
 
-            <label for="email"><b>Email</b></label>
-            <input type="email" placeholder="Enter email" id="email1" name="email" required>
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter email" id="email1" name="email" required>
 
-            <label for="subject"><b>Subject</b></label>
-            <input type="text" placeholder="Enter Subject" id="date" name="subject" required>
+              <label for="subject"><b>Subject</b></label>
+              <input type="text" placeholder="Enter Subject" id="date" name="subject" required>
 
-            <label for="message"><b>Message</b></label>
-            <textarea placeholder="Enter Subject" id="message" name="message" required></textarea>
+              <label for="message"><b>Message</b></label>
+              <textarea placeholder="Enter Subject" id="message" name="message" required></textarea>
 
-            <button type="submit">Send Message</button>
-        </div>
+              <button type="submit">Send Message</button>
+            </div>
+        </form>
+        <?php
+        if(isset($success_message)){
+            echo '<div class="success_message">'.$success_message.'</div>';
+        }
+        if(isset($error_message)){
+            echo '<div class="error_message">'.$error_message.'</div>';
+        }
+        ?>
     </div>
     <div id="column_header">
 <!--        <a target="_blank" class="social-icon" href="https://facebook.com"><i class="fab fa-facebook"></i></a>-->

@@ -21,6 +21,7 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
     <title>Home</title>
     <style>
         a, a:visited{
@@ -93,7 +94,7 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
             <p>
                 <a href="index.php">Home</a><br>
                 <a href="book.php">Booking</a><br>
-                <a href="contact.php">Contact Us</a>
+<!--                <a href="contact.php">Contact Us</a>-->
             </p>
         </div>
         <div id="column">

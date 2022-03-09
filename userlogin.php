@@ -18,6 +18,7 @@ if(isset($_SESSION['user_email'])){
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="images/icon.png" />
     <style>
         a, a:visited{
             color: #0000EE;
@@ -62,7 +63,7 @@ if(isset($_SESSION['user_email'])){
 
     <div class="container">
         <label for="email"><b>Email</b></label>
-        <input type="email" placeholder="Enter email" id="email" name="user_email" required>
+        <input type="email" placeholder="Enter email" id="email1" name="user_email" required>
 
         <label for="password"><b>Password</b></label>
         <input type="password" placeholder="Enter password" id="password" name="user_password" required>

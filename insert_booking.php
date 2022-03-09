@@ -17,7 +17,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['date']) && i
                 $insert_booking = mysqli_query($db_connection, "INSERT INTO `booking` (name, email, date, services) VALUES ('$name', '$email', '$date', '$services')");
 
                 if($insert_booking === TRUE){
-                    $success_message = "Thanks! You have successfully made a booking.";
+                    $success_message = "Thank you for supporting our business! You have successfully made a booking.";
                 }
                 else{
                     $error_message = "Oops! something wrong.";
