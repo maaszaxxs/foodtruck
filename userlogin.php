@@ -14,7 +14,7 @@ if(isset($_SESSION['user_email'])){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Footmarkz.com</title>
+    <title>Login - Foodies Haven</title>
     <link rel="stylesheet" href="style.css" media="all" type="text/css">
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -58,7 +58,9 @@ if(isset($_SESSION['user_email'])){
         </div>
     </nav>
 </div>
-<form action="" method="post">
+<div class="header_contact">
+    <div id="column_header">
+   <form action="" method="post">
     <h2>User Login</h2>
 
     <div class="container">
@@ -81,7 +83,12 @@ if(isset($_SESSION['user_email'])){
 <!--    <div class="container" style="background-color:#f1f1f1">-->
 <!--        <a href="signup.php"><button type="button" class="Regbtn">Create an account</button></a>-->
 <!--    </div>-->
-</form>
+   </form>
+    </div>
+    <div id="column_header">
+        <img src="images/cutlery.jpg" alt="">
+    </div>
+</div>
 <div class="footer">
     <div id="column_footer">
         <div id="column">

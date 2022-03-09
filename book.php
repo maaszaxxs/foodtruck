@@ -67,7 +67,8 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
     </div>
     </nav>
 </div>
-
+<div class="header_contact">
+    <div id="column_header">
 <!--Form-->
   <form action="" method="post">
     <h2>Book</h2>
@@ -87,7 +88,7 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
             <option value="Outside Catering">Outside Catering</option>
             <option value="Event Catering">Event Catering</option>
             <option value="Meal Plan">Meal Plans</option>
-<!--            <option value="audi">Audi</option>-->
+            <option value="Veggie Drop">Veggie Drop</option>
         </select>
         <br><br>
 
@@ -102,6 +103,11 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
         echo '<div class="error_message">'.$error_message.'</div>';
     }
     ?>
+    </div>
+    <div id="column_header">
+        <img src="images/skewers.jpg" alt="foodies haven booking image">
+    </div>
+</div>
 <!--footer-->
 <div class="footer1">
     <div id="column_footer">

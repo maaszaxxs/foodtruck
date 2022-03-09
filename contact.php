@@ -90,10 +90,10 @@ require 'insert_contact.php';
         <span id="contact_image">
             <img src="images/contacts.jpg" alt="food haven contact us" height="400px" width="600px">
         </span>
-        <h3 id="contact">Contact Information</h3>
-        <p>Telephone: +254 727 444 777<br>
-<!--            Mobeil: +971 52 612 8949<br>-->
-            Email: shop@foodhaven.co.ke</p>
+<!--        <h3 id="contact">Contact Information</h3>-->
+<!--        <p>Telephone: +254 727 444 777<br>-->
+<!--<!--            Mobeil: +971 52 612 8949<br>-->-->
+<!--            Email: shop@foodhaven.co.ke</p>-->
     </div>
 </div>
 <div class="footer">
