@@ -23,14 +23,6 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/icon.png" />
     <title>Home</title>
-    <style>
-        a, a:visited{
-            color: #0000EE;
-        }
-        a:hover{
-            color: #EE0000;
-        }
-    </style>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 </head>

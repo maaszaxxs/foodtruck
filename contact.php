@@ -16,14 +16,6 @@ require 'insert_contact.php';
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="images/icon.png" />
-    <style>
-        a, a:visited{
-            color: #0000EE;
-        }
-        a:hover{
-            color: #EE0000;
-        }
-    </style>
 </head>
 <body>
 <!--Creating Nav Bar-->

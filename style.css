@@ -234,6 +234,17 @@ nav ul{
     font-size: 18px;
     text-decoration: none;
     line-height: 27px;
+
+}
+.nav-btn-container a:hover {
+    border-bottom: #FFFFFF;
+}
+a:hover{
+    /*color: solid red;*/
+    border-bottom: .3rem solid crimson;
+}
+a, a:visited{
+    color: #0000EE;
 }
 nav .icon {
     color: #FDE376;
