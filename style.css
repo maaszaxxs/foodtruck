@@ -318,6 +318,7 @@ select {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    background-color: #FFFFFF;
 }
 
 button {
@@ -388,6 +389,7 @@ button:hover {
 }
 #column_header img {
     border-radius: 45px;
+    padding-top: 12px;
 }
 #column_header form {
     border-radius: 45px;

@@ -162,7 +162,7 @@
             <h3 style="padding-top: 10px">Connect With Us</h3>
             <p>
                 +254 727 444 777<br>
-                <a target="_blank" id="email" href="mailto:shop@gfoodhaven.co.ke">shop@foodhaven.co.ke</a><br>
+                <a target="_blank" id="email" href="mailto:shop@foodhaven.co.ke">shop@foodhaven.co.ke</a><br>
                 Nairobi, Kenya
             </p>
             <a target="_blank" class="social-icon" href="https://facebook.com"><i class="fab fa-facebook"></i></a>
